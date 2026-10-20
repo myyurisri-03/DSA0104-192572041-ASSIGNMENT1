@@ -1,0 +1,17 @@
+n = 20000
+  long long paise total : 33000900 paise = Rs 330009.00
+  double rupees total   : 330009.000000  (diff from exact 0.000e+00)
+  float rupees total    : 330009.00  (diff from exact 0.00)
+  int (32-bit) paise    : fits
+n = 500000
+  long long paise total : 825000900 paise = Rs 8250009.00
+  double rupees total   : 8250009.000000  (diff from exact 0.000e+00)
+  float rupees total    : 8250009.00  (diff from exact 0.00)
+  int (32-bit) paise    : fits
+n = 3000000
+  long long paise total : 4950000000 paise = Rs 49500000.00
+  double rupees total   : 49500000.000000  (diff from exact 0.000e+00)
+  float rupees total    : 49488144.00  (diff from exact 11856.00)
+  int (32-bit) paise    : OVERFLOW at journey 1301506
+INT_MAX = 2147483647
+time for 200000000 additions: int 491.8 ms, long long 489.2 ms, double 558.6 ms

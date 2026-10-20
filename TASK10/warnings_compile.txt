@@ -1,0 +1,16 @@
+warnings_demo.cpp: In function 'int main()':
+warnings_demo.cpp:8:11: warning: comparison of integer expressions of different signedness: 'int' and 'unsigned int' [-Wsign-compare]
+    8 |     if (s < u) std::cout << "less\n";     // -Wsign-compare
+      |         ~~^~~
+warnings_demo.cpp:10:18: warning: operation on 'n' may be undefined [-Wsequence-point]
+   10 |     int total = n++ + n++;                // -Wsequence-point / unsequenced modification
+      |                 ~^~
+warnings_demo.cpp:5:9: warning: unused variable 'unusedVariable' [-Wunused-variable]
+    5 |     int unusedVariable = 5;               // -Wunused-variable
+      |         ^~~~~~~~~~~~~~
+warnings_demo.cpp:13:23: warning: 'x' is used uninitialized [-Wuninitialized]
+   13 |     std::cout << x << '\n';
+      |                       ^~~~
+warnings_demo.cpp:12:9: note: 'x' was declared here
+   12 |     int x;                                // used before set: -Wmaybe-uninitialized
+      |         ^
