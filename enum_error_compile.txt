@@ -1,5 +1,0 @@
-enum_error.cpp: In function 'int main()':
-enum_error.cpp:2:29: error: cannot convert 'Light' to 'int' in initialization
-    2 | int main() { int l = Light::Red; return l; }
-      |                      ~~~~~~~^~~
-      |                             |
