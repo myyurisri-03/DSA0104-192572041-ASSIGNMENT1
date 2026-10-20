@@ -1,0 +1,18 @@
+--- sizeof on this system ---
+bool 1, char 1, int 4, unsigned 4, long long 8, float 4, double 8
+--- ranges (<climits>) ---
+INT_MAX = 2147483647
+INT_MIN = -2147483648
+UINT_MAX = 4294967295
+LLONG_MAX = 9223372036854775807
+CHAR_BIT = 8
+--- precision problem with double rupees ---
+0.1 + 0.2 = 0.30000000000000004
+(0.1 + 0.2 == 0.3) is false
+0.29 * 100 = 28.999999999999996 -> int = 28 (expected 29)
+integer paise: 29
+--- overflow: day collection at network scale ---
+true total (long long) = 10800000000 paise
+INT_MAX                = 2147483647
+fits in int? false
+value if stored in 32-bit int (wrapped) = -2084901888
