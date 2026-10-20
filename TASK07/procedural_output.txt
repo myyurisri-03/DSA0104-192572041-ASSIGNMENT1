@@ -1,0 +1,4 @@
+paid 1000 balance 9000
+paid 3600 balance 5400
+denied, balance 5400
+after careless assignment balance = -999

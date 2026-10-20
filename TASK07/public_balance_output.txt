@@ -1,0 +1,2 @@
+balance after careless deduction = 500 paise (rule broken)
+balance after second deduction   = -1500 paise (negative!)
