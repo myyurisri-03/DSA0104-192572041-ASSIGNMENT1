@@ -1,0 +1,4 @@
+Airport journey fare with old code = 0 paise (should be 6000)
+Weekend Inner at peak hour: old code can only say peak=true -> 1200 paise (should be 900)
+Pass holder with Rs 30: canTravel(0) = false (a free journey is wrongly denied)
+Old BASE_PAISE[3] would read past the array (undefined behaviour) - not executed

@@ -1,0 +1,18 @@
+Fare test                               Expected  Actual    Result
+Airport weekday off-peak                6000      6000      PASS
+Airport weekday peak (9:00)             7200      7200      PASS
+Airport weekend (peak hour ignored)     5400      5400      PASS
+Inner weekend off-peak                  900       900       PASS
+Inner weekend at 8:00 (no surcharge)    900       900       PASS
+Outer weekday peak 17:00                3600      3600      PASS
+Outer weekday 20:00 off-peak            3000      3000      PASS
+Student Airport weekend                 2700      2700      PASS
+Senior Middle weekday peak              1200      1200      PASS
+pass: Outer in month 6 is free                      charged 0     balance 9000   PASS
+pass: Airport in month 6 is free                    charged 0     balance 9000   PASS
+pass: Inner not covered, pays Rs 10                 charged 1000  balance 8000   PASS
+pass: Outer in month 7 (expired) pays               charged 3000  balance 5000   PASS
+pass expired: Airport denied (low balance)          charged 0     balance 5000   PASS
+pass holder with Rs 30 rides Outer free             charged 0     balance 3000   PASS
+
+15 / 15 tests passed
