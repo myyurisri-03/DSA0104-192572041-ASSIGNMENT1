@@ -1,5 +1,0 @@
-MARGIN_MACRO * 2     = 15
-MARGIN_CONSTEXPR * 2 = 20
-unscoped Red as int  = 0
-enum class Green as int = 1
-Outer fare = 3000 paise
