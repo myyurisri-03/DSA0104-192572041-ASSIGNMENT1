@@ -1,0 +1,5 @@
+postfix_demo.cpp: In function 'int main()':
+postfix_demo.cpp:10:7: warning: operation on 'm' may be undefined [-Wsequence-point]
+   10 |     m = m++;       // do NOT write this (unspecified/undefined before C++17)
+      |     ~~^~~~~
+postfix_demo.cpp:10:7: warning: operation on 'm' may be undefined [-Wsequence-point]

@@ -1,0 +1,5 @@
+table == expression for all 24 hours: true
+boundary: 8->true 10->false 17->true 20->false
+sizeof(peak) = 24 bytes
+expression: 374.441 ms for 100000000 checks
+table     : 292.763 ms for 100000000 checks
