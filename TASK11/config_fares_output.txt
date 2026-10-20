@@ -1,0 +1,6 @@
+read 4 fares in 80.099 microseconds
+  Airport = 6000 paise
+  Inner = 1000 paise
+  Middle = 2000 paise
+  Outer = 3000 paise
+sizeof(long long) * 4 = 32 bytes of payload (plus map overhead)
