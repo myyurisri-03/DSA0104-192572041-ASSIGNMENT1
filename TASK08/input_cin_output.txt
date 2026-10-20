@@ -1,0 +1,8 @@
+Enter hour (0-23):   invalid input, try again
+Enter hour (0-23):   invalid input, try again
+Enter hour (0-23):   invalid input, try again
+Enter hour (0-23): hour accepted: 9
+Journey report
+Zone      Peak            Fare
+Outer     yes           Rs 36.00
+fixed/setprecision(2): 36.00

@@ -1,0 +1,4 @@
+Enter hour (0-23):   invalid input (stoi), try again
+Enter hour (0-23):   invalid input (trailing characters), try again
+Enter hour (0-23):   invalid input (hour out of range), try again
+Enter hour (0-23): hour accepted: 9
