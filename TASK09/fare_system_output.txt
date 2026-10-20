@@ -1,0 +1,29 @@
+Test case                         Expected  Actual    Result
+Inner off-peak adult (12:00)      1000      1000      PASS
+Middle off-peak adult (12:00)     2000      2000      PASS
+Outer off-peak adult (12:00)      3000      3000      PASS
+Inner peak adult (9:00)           1200      1200      PASS
+Middle peak adult (18:00)         2400      2400      PASS
+Outer peak adult (8:00)           3600      3600      PASS
+Boundary 8:00 is peak             1200      1200      PASS
+Boundary 10:00 is off-peak        1000      1000      PASS
+Boundary 17:00 is peak            1200      1200      PASS
+Boundary 20:00 is off-peak        1000      1000      PASS
+Student Outer off-peak            1500      1500      PASS
+Senior Outer peak                 1800      1800      PASS
+balance leaves exactly Rs 50 -> allowed               PASS
+balance leaves Rs 49.99 -> denied                     PASS
+balance Rs 50, fare Rs 10 -> denied                   PASS
+unknown zone 7 / -1 rejected                          PASS
+negative recharge rejected                            PASS
+letters typed for hour rejected                       PASS
+
+5-journey set
+  fare Rs 10.00  balance Rs 490.00
+  fare Rs 24.00  balance Rs 466.00
+  fare Rs 15.00  balance Rs 451.00
+  fare Rs 18.00  balance Rs 433.00
+  fare Rs 20.00  balance Rs 413.00
+hand total Rs 87.00, program total Rs 87.00 -> PASS
+
+19 / 19 tests passed
