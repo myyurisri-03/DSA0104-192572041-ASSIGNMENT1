@@ -1,0 +1,10 @@
+hour 7:00 -> off-peak
+hour 8:00 -> peak
+hour 9:00 -> peak
+hour 10:00 -> off-peak
+hour 16:00 -> off-peak
+hour 17:00 -> peak
+hour 19:00 -> peak
+hour 20:00 -> off-peak
+Outer fare at 10:00 = 3000 paise (no surcharge)
+Outer fare at 20:00 = 3000 paise (no surcharge)
